@@ -14,7 +14,7 @@ export default function SingleBlog({ postData: post, featuredImage }) {
             {featuredImage && (
               <div className="w-full h-96 mb-8">
                 <img
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-cover rounded-lg aspect-video"
                   src={featuredImage}
                   alt="image description"
                 />
